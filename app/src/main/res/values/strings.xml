@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ScoreKeeper</string>
+    <string name="team_a">Team A</string>
+    <string name="goal_team_a">0</string>
+    <string name="corners_team_a">Eckbälle: 0</string>
+    <string name="penalty_kick_team_a">Elfmeter: 0</string>
+    <string name="goal_button">Tor!</string>
+    <string name="corner_button">Eckball</string>
+    <string name="penalty_kick_button">Elfmeter</string>
+    <string name="team_b">Team B</string>
+    <string name="goal_team_b">0</string>
+    <string name="corners_team_b">Eckbälle: 0</string>
+    <string name="penalty_kick_team_b">Elfmeter: 0</string>
+    <string name="reset">Restart</string>
+</resources>
