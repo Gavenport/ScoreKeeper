@@ -2,8 +2,11 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#17EF42</color>
+    <color name="colorAccent">#3ff062</color>
     <color name="TeamName">#F31F66</color>
-    <color name="yellowDark">#EEAB11</color>
+    <color name="yellowDark">#6a4c05</color>
     <color name="colorButtonsBack">#F5C57E</color>
+    <color name="White">#FAFAFA</color>
+    <color name="Black">#000000</color>
+    <color name="yellowLight">#f4e736</color>
 </resources>
