@@ -37,6 +37,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="4dp"
+            android:layout_marginBottom="36dp"
             android:text="@string/goal_team_a"
             android:textSize="60sp"
             android:textColor="@color/colorPrimaryDark" />
@@ -46,10 +47,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:background="@android:color/holo_green_dark"
             android:padding="4dp"
             android:text="@string/corners_team_a"
             android:textSize="16sp"
-            android:textColor="@color/yellowDark"/>
+            android:textColor="@color/yellowLight"/>
 
 
         <TextView
@@ -57,36 +59,43 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:background="@android:color/holo_green_dark"
             android:padding="4dp"
             android:text="@string/penalty_kick_team_a"
             android:textSize="16sp"
-            android:textColor="@color/yellowDark"/>
+            android:textColor="@color/yellowLight"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginEnd="46dp"
             android:text="@string/goal_button"
             android:textSize="30sp"
             android:textColor="@color/colorPrimaryDark"
-            android:background="@color/colorButtonsBack"
+            android:background="@color/yellowLight"
             android:onClick="addGoalForTeamA"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginEnd="46dp"
             android:text="@string/corner_button"
             android:onClick="addCornerForTeamA"
-            android:background="@color/colorButtonsBack"/>
+            android:background="@color/yellowLight"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginEnd="46dp"
             android:text="@string/penalty_kick_button"
             android:onClick="addPenaltyKickForTeamA"
-            android:background="@color/colorButtonsBack"/>
+            android:background="@color/yellowLight"/>
 
 
     </LinearLayout>
@@ -114,6 +123,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="4dp"
+            android:layout_marginBottom="36dp"
             android:text="@string/goal_team_b"
             android:textSize="60sp"
             android:textColor="@color/colorPrimaryDark"/>
@@ -123,10 +133,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:background="@android:color/holo_green_dark"
             android:padding="4dp"
             android:text="@string/corners_team_b"
             android:textSize="16sp"
-            android:textColor="@color/yellowDark"/>
+            android:textColor="@color/yellowLight"/>
 
 
         <TextView
@@ -134,35 +145,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:background="@android:color/holo_green_dark"
             android:padding="4dp"
             android:text="@string/penalty_kick_team_b"
             android:textSize="16sp"
-            android:textColor="@color/yellowDark"/>
+            android:textColor="@color/yellowLight"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginEnd="46dp"
             android:text="@string/goal_button"
             android:textSize="30sp"
             android:textColor="@color/colorPrimaryDark"
-            android:background="@color/colorButtonsBack"
+            android:background="@color/yellowLight"
             android:onClick="addGoalForTeamB"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginEnd="46dp"
             android:text="@string/corner_button"
-            android:background="@color/colorButtonsBack"
+            android:background="@color/yellowLight"
             android:onClick="addCornerForTeamB"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginEnd="46dp"
             android:text="@string/penalty_kick_button"
-            android:background="@color/colorButtonsBack"
+            android:background="@color/yellowLight"
             android:onClick="addPenaltyKickForTeamB"/>
 
 
@@ -176,9 +194,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_margin="8dp"
+            android:layout_marginBottom="26dp"
             android:text="@string/reset"
-            android:background="@color/colorAccent"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/background_light"
             android:onClick="resetScore"
     />
 
